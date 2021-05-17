@@ -1,0 +1,6 @@
+[package]
+name = "hi-tension"
+version = "0.1.0"
+authors = ["gggto <47183108+gggto@users.noreply.github.com>"]
+repository = "https://github.com/gggto/hi-tension"
+edition = "2018"
