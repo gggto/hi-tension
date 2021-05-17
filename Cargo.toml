@@ -1,6 +1,10 @@
 [package]
 name = "hi-tension"
+description = "Basic but fast network communication between scientific applications"
+categories = ["network-programming", "science", "simulation"]
 version = "0.1.0"
 authors = ["gggto <47183108+gggto@users.noreply.github.com>"]
 repository = "https://github.com/gggto/hi-tension"
+license = "MIT"
+readme = "README.md"
 edition = "2018"
