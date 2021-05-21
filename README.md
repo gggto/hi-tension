@@ -5,6 +5,8 @@ but *fast* network communication between scientific applications. The focus is
 on transferring large unsized arrays of `f64` with maximum throughput and
 minimum latency.
 
+Python bindings are available [here](https://github.com/gggto/py-hi-tension).
+
 ## Usage
 
 Add this to your `Cargo.toml`:
