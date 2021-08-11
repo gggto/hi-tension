@@ -3,7 +3,7 @@
 //! on transferring large unsized arrays of `f64` with maximum throughput and
 //! minimum latency.
 //!
-//! ## Usage
+//! # Usage
 //!
 //! ```rust
 //! use hi_tension::{hiread, hiwrite, hidelimiter};
@@ -36,7 +36,7 @@
 //! let vec = hiread(&mut stream)?;
 //! ```
 //!
-//! ## Rough protocol description
+//! # Rough protocol description
 //!
 //! The `hi-tension` protocol accepts 2 kinds of messages:
 //! - *Simple Text Messages*, for contextual communication and custom remote
@@ -57,7 +57,7 @@
 //! Endianness is assumed to be *little-endian*, but no checks are performed. Be
 //! careful if you use this on ARM devices.
 //!
-//! ### Acknowlegments
+//! ## Acknowlegments
 //!
 //! After a *High Tension Message* is sent, the sender must wait for a newline `\n`
 //! sent by the receiver, to ensure succesfull reception.
